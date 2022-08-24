@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #148DBC, #083578);
+    font-family:'Bebas Neue', cursive, sans-serif;
+    color: white;
+}
+
+#center{
+    display: flex;
+    margin: auto;
+    
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    justify-content: space-around;
+    box-shadow: 5px 5px 10px rgba(43, 43, 43, 0.522);
+}
+
+header > h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#center_horas{
+   margin-top: 40px;
+}
+
+#center_minutos{
+    margin-top: 40px;
+}
+
+#center_segundos{
+    margin-top: 40px;
+}
+
+#n_horas{
+    font-size: 75px;
+}
+
+#n_minutos{
+    font-size: 75px;
+}
+
+#n_segundos{
+    font-size: 75px;
+}
+
+#horas{
+    text-align: center;
+}
+
+#minutos{
+    text-align: center;
+}
+
+#segundos{
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 288px;
+    text-align: center;
+}
+
+@media(max-width: 640px ){
+    #center{
+        width: 400px;
+    }
+
+    header > h1{
+        margin-top: 10px;
+    }
+    footer{
+        margin-top: 369px;
+    }
+}
+
+@media(max-width ){}
